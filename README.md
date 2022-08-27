@@ -26,3 +26,8 @@ cd ~/.local/src/dwm/
 
 sudo make && sudo make install
 
+sudo mv dwmblocks-config.h ~/.local/src/dwmblocks/
+
+cd ~/.local/src/dwmblocks/ 
+
+sudo make && sudo make install
