@@ -1,8 +1,8 @@
 # Arch-workstation
 
-instalar Archey4
-sudo pacman -S figlet && yay -S archey4
+## instalar programas basicos
+sudo pacman -S figlet && yay -S google-chrome archey4 
 
-crear extip
+## crear extip
 sudo mv extip /usr/bin/extip && sudo chmod +x /usr/bin/extip
 
