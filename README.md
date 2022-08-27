@@ -14,3 +14,9 @@ sudo mv settings.ini ~/.config/gtk-3.0/
 
 sudo mv xprofile ~./config/x11/
 
+sudo mv dmenu-config.h ~/.local/src/dmenu/
+cd ~/.local/src/dmenu/ 
+sudo make && sudo make install
+
+
+
