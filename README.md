@@ -8,4 +8,6 @@ Crear extip
 
 sudo mv extip /usr/bin/extip && sudo chmod +x /usr/bin/extip
 sudo mv xresources ~/.config/x11/
+sudo mv settings.ini ~/.config/gtk-3.0/
+sudo mv xprofile ~./config/x11/
 
