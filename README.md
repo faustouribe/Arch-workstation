@@ -6,7 +6,7 @@ sudo mv extip /usr/bin/extip && sudo chmod +x /usr/bin/extip
 
 echo "extip" >> ~/.bashrc
 
-echo "export PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/mrfox/.local/bin:/home/mrfox/.local/bin/__pycache__:/home/mrfox/.local/bin/cron:/home/mrfox/.local/bin/statusbar:/home/mrfox/bin/gyb" >> ~./bashrc
+echo "export PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/mrfox/.local/bin:/home/mrfox/.local/bin/__pycache__:/home/mrfox/.local/bin/cron:/home/mrfox/.local/bin/statusbar:/home/mrfox/bin/gyb" >> ~/.bashrc
 
 mv xresources ~/.config/x11/
 
