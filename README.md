@@ -8,7 +8,7 @@ sudo mv xresources ~/.config/x11/
 
 sudo mv settings.ini ~/.config/gtk-3.0/
 
-sudo mv xprofile ~./config/x11/
+sudo mv xprofile ~/.config/x11/
 
 sudo mv dmenu-config.h ~/.local/src/dmenu/
 
