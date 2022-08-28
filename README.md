@@ -4,6 +4,8 @@ sudo pacman -S figlet terminus-font ttf-roboto && yay -S google-chrome archey4
 
 sudo mv extip /usr/bin/extip && sudo chmod +x /usr/bin/extip
 
+echo "extip" >> ~/.bashrc
+
 mv xresources ~/.config/x11/
 
 mv settings.ini ~/.config/gtk-3.0/
@@ -18,8 +20,11 @@ mv dwmblocks-config.h ~/.local/src/dwmblocks/config.h
 
 mv sysact ~/.local/bin/sysact
 
+sudo chmod +x ~/.local/bin/sysact
+
 mv sb-doppler /.local/bin/statusbar/sb-doppler
 
+sudo chmod +x /.local/bin/statusbar/sb-doppler
 
 cd ~/.local/src/dmenu/ 
 
