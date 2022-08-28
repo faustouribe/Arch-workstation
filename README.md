@@ -1,4 +1,4 @@
-# Arch-workstation
+# arch-workstation
 
 Instalar programas basicos
 
