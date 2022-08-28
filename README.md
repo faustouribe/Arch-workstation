@@ -1,5 +1,3 @@
-#!/bin/sh
-
 # Arch-Workstation Install Script
 
 # Raw process
