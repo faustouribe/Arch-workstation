@@ -34,4 +34,6 @@ sudo make && sudo make install
 
 sudo mv sysact ~/.local/bin/
 
+mv sb-doppler /.local/bin/statusbar/
+
 
