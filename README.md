@@ -1,4 +1,9 @@
-# arch-workstation
+#!/bin/sh
+
+# Arch-Workstation Install Script
+
+# Raw process
+
 
 sudo pacman -S figlet terminus-font ttf-roboto && yay -S google-chrome archey4 
 
