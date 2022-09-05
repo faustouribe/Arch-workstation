@@ -6,10 +6,11 @@ Change ~/.config/gtk-3.0/settings.ini
 
 # Chrome
     Create vim ~/.config/chrome-flags.conf
+
 add
     --force-device-scale-factor=2
-
-Settings/Appearance 
+    
+Settings/Appearance
     Adjust fonts
 
 # Firefox
