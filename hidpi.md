@@ -17,16 +17,17 @@ Adjust fonts
 
 # Firefox
 ## Open a new tab and enter the following text in the address bar
-about:config
+    about:config
 
 ## Enter the following text in the search box
-layout.css.devPixelsPerPx
+    layout.css.devPixelsPerPx
 
-## The value layout.css.devPixelsPerPx will appear in the list. 
-## By default, its value data is set to -1.0, which means "follow the system settings". 
-## You can override it by changing the value to a positive number.
-## Start changing it with 1.5 and continue until you satisfied with what you see.
-me gusto "2"
+The value layout.css.devPixelsPerPx will appear in the list. 
+By default, its value data is set to -1.0, which means "follow the system settings". 
+You can override it by changing the value to a positive number.
+Start changing it with 1.5 and continue until you satisfied with what you see.
+
+    me gusto "2"
 
 
 ##To change user interface density in Firefox, do the following.
