@@ -1,23 +1,29 @@
 Change  ~/.xprofile
+    
     xrandr --dpi 144
 
 Change ~/.config/gtk-3.0/settings.ini
+
     gtk-font-name=Roboto 10
 
 # Chrome
     Create vim ~/.config/chrome-flags.conf
 
 add
+
     --force-device-scale-factor=2
     
 Settings/Appearance
+
     Adjust fonts
 
 # Firefox
 Open a new tab and enter the following text in the address bar
+    
     about:config
 
 Enter the following text in the search box
+
     layout.css.devPixelsPerPx
 
 The value layout.css.devPixelsPerPx will appear in the list. 
