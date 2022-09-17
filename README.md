@@ -5,31 +5,31 @@
 
 sudo pacman -S figlet terminus-font ttf-roboto && yay -S google-chrome archey4 
 
-sudo mv extip /usr/bin/extip && sudo chmod +x /usr/bin/extip
+sudo cp extip /usr/bin/extip && sudo chmod +x /usr/bin/extip
 
 echo "extip" >> ~/.config/zsh/.zshrc
 
-mv xresources ~/.config/x11/
+cp xresources ~/.config/x11/
 
-mv settings.ini ~/.config/gtk-3.0/
+cp settings.ini ~/.config/gtk-3.0/
 
-mv xprofile ~/.config/x11/
+cp xprofile ~/.config/x11/
 
-mv dmenu-config.h ~/.local/src/dmenu/config.h
+cp dmenu-config.h ~/.local/src/dmenu/config.h
 
-mv dwm-config.h ~/.local/src/dwm/config.h
+cp dwm-config.h ~/.local/src/dwm/config.h
 
-mv dwmblocks-config.h ~/.local/src/dwmblocks/config.h
+cp dwmblocks-config.h ~/.local/src/dwmblocks/config.h
 
-mv sysact ~/.local/bin/sysact
+cp sysact ~/.local/bin/sysact
 
 sudo chmod +x ~/.local/bin/sysact
 
-mv sb-doppler ~/.local/bin/statusbar/sb-doppler
+cp sb-doppler ~/.local/bin/statusbar/sb-doppler
 
 sudo chmod +x ~/.local/bin/statusbar/sb-doppler
 
-sudo mv 00-keyboard.conf /etc/X11/xorg.conf.d/
+sudo cp 00-keyboard.conf /etc/X11/xorg.conf.d/
 
 cd ~/.local/src/dmenu/ 
 
