@@ -25,9 +25,9 @@ mv sysact ~/.local/bin/sysact
 
 sudo chmod +x ~/.local/bin/sysact
 
-mv sb-doppler /.local/bin/statusbar/sb-doppler
+mv sb-doppler ~/.local/bin/statusbar/sb-doppler
 
-sudo chmod +x /.local/bin/statusbar/sb-doppler
+sudo chmod +x ~/.local/bin/statusbar/sb-doppler
 
 sudo mv 00-keyboard.conf /etc/X11/xorg.conf.d/
 
