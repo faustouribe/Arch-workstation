@@ -8,17 +8,17 @@ sudo pacman -S figlet terminus-font ttf-roboto && yay -S google-chrome archey4
 sudo cp extip /usr/bin/extip && sudo chmod +x /usr/bin/extip
 
 cp xresources ~/.config/x11/ \
-(change line "*.font: monospace:size=14"
+(change line "*.font: monospace:size=11"
 and remove comment signs from solarized)
 
 cp settings.ini ~/.config/gtk-3.0/ \
-(change line: "gtk-font-name=Roboto 13")
+(change line: "gtk-font-name=Roboto 10")
 
 cp xprofile ~/.config/x11/ \
 (change dpi, remove comment in xrdb line)
 
 cp dmenu-config.h ~/.local/src/dmenu/config.h \
-(change "monospace:size=16", "NotoColorEmoji:pixelsize=8:antialias=true:autohint=true"
+(change "monospace:size=12", "NotoColorEmoji:pixelsize=20:antialias=true:autohint=true"
 
 cp dwm-config.h ~/.local/src/dwm/config.h \
 ( change: "define BROWSER "google-chrome" " "static int swallowfloating = 1;", "static int smartgaps = 1;", "static char *fonts[]          = { "monospace:size=10", "NotoColorEmoji:pixelsize=10:antialias=true:autohint=true"  };" )
