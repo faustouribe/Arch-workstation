@@ -46,3 +46,10 @@ sudo make && sudo make install
 
 cd ~/.local/src/dwmblocks/ 
 sudo make && sudo make install
+
+
+# Install Cups
+sudo pacman -S cups cups-pdf avahi nss-mdns \
+enable/start cups avahi-daemon \
+edit the file /etc/nsswitch.conf and change the hosts line to include mdns_minimal [NOTFOUND=return] before resolve and dns: \
+hosts: mymachines mdns_minimal [NOTFOUND=return] resolve [!UNAVAIL=return] files myhostname dns
