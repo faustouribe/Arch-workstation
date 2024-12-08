@@ -7,8 +7,6 @@ sudo pacman -S figlet terminus-font ttf-roboto && yay -S google-chrome archey4
 
 sudo cp extip /usr/bin/extip && sudo chmod +x /usr/bin/extip
 
-echo "extip" >> ~/.config/zsh/.zshrc
-
 cp xresources ~/.config/x11/ \
 (change line "*.font: monospace:size=10" for *.font: monospace:size=14"
 and remove comment signs from solarized)
@@ -19,7 +17,9 @@ cp settings.ini ~/.config/gtk-3.0/ \
 cp xprofile ~/.config/x11/ \
 (change dpi, remove comment in xrdb line)
 
-cp dmenu-config.h ~/.local/src/dmenu/config.h
+cp dmenu-config.h ~/.local/src/dmenu/config.h \
+(change "monospace:size=16", "NotoColorEmoji:pixelsize=8:antialias=true:autohint=true"
+
 
 cp dwm-config.h ~/.local/src/dwm/config.h
 
