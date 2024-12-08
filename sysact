@@ -15,7 +15,7 @@ wmpid(){ # This function is needed if there are multiple instances of the window
 
 case "$(printf "🚪 leave $WM\n📺 renew $WM\n🔃 reboot\n🔒 shutdown" | dmenu -i -p 'Action: ')" in
         "🚪 leave $WM") kill -TERM "$(wmpid)" ;;
-        "📺renew $WM") kill -HUP "$(wmpid)" ;;
+        "📺 renew $WM") kill -HUP "$(wmpid)" ;;
         '🔃 reboot') $ctl reboot -i ;;
         '🔒 shutdown') $ctl poweroff -i ;;
         *) exit 1 ;;
